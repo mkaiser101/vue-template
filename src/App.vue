@@ -2,12 +2,15 @@
   <div id="app">
     <div id="nav">
        <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <v-toolbar dense class="teal">
-      <v-toolbar-title dark>Toolbar title</v-toolbar-title>
+          app
+          color="primary"
+          dark
+        >
+    
+       <v-toolbar-title shrink-on-scroll=true>
+        App Bar Title
+       </v-toolbar-title>
+      <v-toolbar>
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat light to="/" exact>home</v-btn>
