@@ -1,24 +1,25 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
     <ParalaxIntro/>
+    <Test/>
     <VerticalDivider/>
+    <img alt="Vue logo" src="../assets/logo.png">
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
 import ParalaxIntro from '@/components/ParalaxIntro.vue'
 import VerticalDivider from '@/components/VerticalDivider.vue'
+import Test from '@/components/Test.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
     ParalaxIntro,
-    VerticalDivider
+    VerticalDivider,
+    Test
   }
 }
 </script>
