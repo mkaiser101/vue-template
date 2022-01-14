@@ -1,29 +1,27 @@
 <template>
-  <div id="app">
+  <v-app>
     <div id="nav">
        <v-app-bar
-          app
-          color="primary"
-          dark
+          app    
+          color="green"
         >
-    
-       <v-toolbar-title shrink-on-scroll=true>
-        App Bar Title
-       </v-toolbar-title>
-      <v-toolbar>
+       <v-appbar-title shrink-on-scroll=true>
+        Mindful Meditations
+       </v-appbar-title>
+   
       <v-spacer></v-spacer>
-      <v-toolbar-items>
+      <v-appbar-items>
         <v-btn flat light to="/" exact>home</v-btn>
         <v-btn flat dark to="/projects" exact>projects</v-btn>
         <v-btn flat light to="/about" exact>about</v-btn>
         <v-btn flat dark to="/timeline" exact>timeline</v-btn>
         <v-btn flat dark to="/cookbook" exact>cookbook</v-btn>
-      </v-toolbar-items>
-    </v-toolbar>
+      </v-appbar-items>
+
     </v-app-bar>
     </div>
     <router-view/>
-  </div>
+  </v-app>
 </template>
 
 <style lang="scss">
