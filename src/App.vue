@@ -14,8 +14,7 @@
         <v-btn flat light to="/" exact>home</v-btn>
         <v-btn flat dark to="/projects" exact>projects</v-btn>
         <v-btn flat light to="/about" exact>about</v-btn>
-        <v-btn flat dark to="/timeline" exact>timeline</v-btn>
-        <v-btn flat dark to="/cookbook" exact>cookbook</v-btn>
+        <v-btn flat light to="/sandbox" exact>sandbox</v-btn>
       </v-appbar-items>
 
     </v-app-bar>
